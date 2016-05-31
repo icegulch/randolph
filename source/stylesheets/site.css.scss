@@ -9,6 +9,9 @@ body {
   font: 400 16px/1.6em 'PT Sans', sans-serif;
   color: #555555;
   background-color: #fff;
+  @media screen and (min-width: 992px) {
+    padding-top: 20px;
+  }
 }
 
 .site-header {
@@ -128,7 +131,60 @@ h6 {
   }
 }
 
-.navbar-brand {
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.list-group-item-topnav {
+  padding: 0;
+  &:first-child, &:last-child {
+    border-radius: 0;
+  }
+  &:first-child {
+    border-top: 1px solid #ddd;
+  }
+  a {
+    display: block;
+    padding: 10px 15px;
+    &:hover, &:focus {
+      background-color: #fafafa;
+      color: #a5a5a5;
+      text-decoration: none;
+      &:active {
+        color: #f18f2e;
+      }
+    }
+  }
+  &.active {
+    border-color: #ddd;
+    &:hover, &:focus {
+      border-color: #ddd;
+      background-color: #f1f1f1;
+    }
+    a {
+      color: #f18f2e;
+      background-color: #f1f1f1;
+    }
+  }
+}
+
+.topnav-header {
+  padding: 10px 15px;
+}
+
+.topnav-toggle {
+  &:hover, &:focus {
+    cursor: pointer;
+  }
+}
+
+.topnav-brand {
   font: 400 20px/1em 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   color: #000 !important;
@@ -143,6 +199,10 @@ h6 {
 .table-cell {
   display: table-cell;
   vertical-align: top;
+}
+
+.table-cell-middle {
+  vertical-align: middle;
 }
 
 .table-cell-6 {
