@@ -6412,8 +6412,10 @@ h6 {
 .topnav-header {
   padding: 10px 15px; }
 
-.topnav-toggle:hover, .topnav-toggle:focus {
-  cursor: pointer; }
+.topnav-toggle {
+  display: block; }
+  .topnav-toggle:hover, .topnav-toggle:focus {
+    cursor: pointer; }
 
 .topnav-brand {
   font: 400 20px/1em 'Source Sans Pro', sans-serif;
