@@ -180,8 +180,10 @@ h6 {
 
 .topnav-toggle {
   display: block;
+  color: #000;
   &:hover, &:focus {
     cursor: pointer;
+    color: #555;
   }
 }
 
@@ -206,8 +208,16 @@ h6 {
   vertical-align: middle;
 }
 
+.table-cell-4 {
+  width: 25%;
+}
+
 .table-cell-6 {
   width: 50%;
+}
+
+.table-cell-8 {
+  width: 75%;
 }
 
 .social-nav {
