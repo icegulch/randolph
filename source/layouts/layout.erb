@@ -8,14 +8,16 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title ? current_page.data.title + " | Randolph Ramble" : "Randolph Ramble" %></title>
 
-    <%= stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', '//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', :site %>
-    <%= javascript_include_tag "all" %>
+    <%= stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', '//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Source+Sans+Pro:400,600|Open+Sans:400', :site %>
+    <%= javascript_include_tag "//code.jquery.com/jquery-2.2.4.js", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", "all" %>
     <%= favicon_tag 'favicon.ico', rel: 'icon', type: 'image/ico' %>
   </head>
 
   <body class="<%= page_classes %>">
 
     <div class="container">
+
+      <%= partial 'layouts/mobile-nav' %>
 
       <%= partial 'layouts/header' %>
 

@@ -6,11 +6,15 @@ title: Film Festival
     Film Festival
   </h2>
 
-  <div class="row">
-    
-    <div class="col-sm-8 col-md-10">
+  <div class="row ptl">
 
-      <p>
+    <figure class="col-sm-4 col-md-3 col-sm-push-8 col-md-push-9 mbl">
+      <%= image_tag "TIM_Dark-On-Light_Logo_shadow.png", :class => 'img-responsive' %>
+    </figure>
+
+    <div class="col-sm-8 col-md-9 col-sm-pull-4 col-md-pull-3">
+
+      <p class="mtn">
         On Saturday, October 31<sup>st</sup> at 7 pm, race partner Run the Alps will present the international film festival, Trails in Motion at the Medallion Opera House in Gorham, New Hampshire.
       </p>
 
@@ -19,7 +23,9 @@ title: Film Festival
       </p>
 
       <p>
-        <iframe src="https://player.vimeo.com/video/113910005" width="770" height="433" frameborder="0" title="Trails In Motion 3" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 ">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/113910005" width="770" height="433" frameborder="0" title="Trails In Motion 3" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
       </p>
 
       <p>
@@ -35,9 +41,5 @@ title: Film Festival
       </p>
 
     </div>
-
-    <figure class="col-sm-4 col-md-2">
-      <%= image_tag "TIM_Dark-On-Light_Logo_shadow.png", :class => 'img-responsive' %>
-    </figure>
 
   </div>

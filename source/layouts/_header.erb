@@ -1,63 +1,63 @@
 
-<header class="site-header" role="banner">
+      <header class="site-header" role="banner">
 
-  <div class="table-row">
-    <div class="table-cell table-cell-6">
-      <a href="/">
-        <%= image_tag "Randolph-Ramble-Logo.png", :class => "img-responsive", :alt => "Randolph Ramble Logo" %>
-      </a>
-    </div>
-    <div class="table-cell table-cell-6 social-nav">
-      <a href="https://www.facebook.com/randolphramblerace" class="social-circle">
-        <i class="fa fa-facebook"></i>
-      </a>
-      <a href="mailto:info@randolphramble.com" class="social-circle">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </div>
-  </div>
+        <div class="table-row">
+          <div class="table-cell table-cell-6 hidden-xs hidden-sm">
+            <a href="/">
+              <%= image_tag "Randolph-Ramble-Logo.png", :class => "img-responsive", :alt => "Randolph Ramble Logo" %>
+            </a>
+          </div>
+          <div class="table-cell table-cell-6 social-nav">
+            <a href="https://www.facebook.com/randolphramblerace" class="social-circle social-circle-facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="mailto:info@randolphramble.com" class="social-circle social-circle-mail">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </div>
+        </div>
 
-  <ul class="list-unstyled hidden-xs ptl">
-    <li class="menu-item<%= ' active' if current_page.url == '/' %>">
-      <a href="/">
-        Home
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/the-course/' %>">
-      <a href="/the-course">
-        The Course
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/important-info/' %>">
-      <a href="/important-info/">
-        Important Info
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/registration-schedule/' %>">
-      <a href="/registration-schedule/">
-        Registration &#038; Schedule
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/film-festival/' %>">
-      <a href="/film-festival/">
-        Film Festival
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/sponsors/' %>">
-      <a href="/sponsors/">
-        Sponsors
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/lodging/' %>">
-      <a href="/lodging/">
-        Lodging
-      </a>
-    </li>
-    <li class="menu-item<%= ' active' if current_page.url == '/for-more-info/' || page_classes.match("uncategorized") %>">
-      <a href="/for-more-info/">
-        Latest News
-      </a>
-    </li>
-  </ul>
+        <ul class="list-unstyled hidden-xs hidden-sm ptl">
+          <li class="md-menu-item<%= ' active' if current_page.url == '/' %>">
+            <a href="/">
+              Home
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/the-course/' %>">
+            <a href="/the-course">
+              The Course
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/important-info/' %>">
+            <a href="/important-info/">
+              Important Info
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/registration-schedule/' %>">
+            <a href="/registration-schedule/">
+              Registration &#038; Schedule
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/film-festival/' %>">
+            <a href="/film-festival/">
+              Film Festival
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/sponsors/' %>">
+            <a href="/sponsors/">
+              Sponsors
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/lodging/' %>">
+            <a href="/lodging/">
+              Lodging
+            </a>
+          </li>
+          <li class="md-menu-item<%= ' active' if current_page.url == '/for-more-info/' || page_classes.match("uncategorized") %>">
+            <a href="/for-more-info/">
+              Latest News
+            </a>
+          </li>
+        </ul>
 
-</header>
+      </header>
