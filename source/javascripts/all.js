@@ -1,1 +1,5 @@
-// This is where it all goes :)
+//= require_tree .
+//= require jquery
+//= require bootstrap-sprockets
+
+
