@@ -41,4 +41,7 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+
+  # Minify HTML
+  activate :minify_html, remove_comments: false
 end
