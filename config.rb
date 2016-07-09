@@ -45,3 +45,9 @@ configure :build do
   # Minify HTML
   activate :minify_html, remove_comments: false
 end
+
+
+after_build do
+  `cp source/_redirects build/_redirects`
+end
+

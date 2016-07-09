@@ -1,0 +1,2 @@
+# Simple redirects from one path to another
+/uncategorized/*    /for-more-info/   301
