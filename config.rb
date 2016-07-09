@@ -48,6 +48,6 @@ end
 
 
 after_build do
-  `cp source/_redirects build/_redirects`
+  `cp redirects build/_redirects`
 end
 
