@@ -223,8 +223,9 @@ h6 {
 .social-nav {
   text-align: center;
   a {
-    color: #fff;
+    color: #507822;
     &:hover, &:focus {
+      color: darken(#507822, 10%);
       text-decoration: none;
     }
   }
@@ -233,26 +234,6 @@ h6 {
   }
 }
 
-.social-circle {
-  .fa {
-    font-size: 2.5rem;
-    display: inline-block;
-    padding: 0.5em;
-    background: #507822;
-    border-radius: 50%;
-  }
-  &.social-circle-facebook {
-    .fa {
-      padding-left: 0.65em;
-      padding-right: 0.65em;
-    }
-  }
-  &:hover, &:focus {
-    .fa {
-      background: #488f5c;
-    }
-  }
-}
 
 /* Custom*/
 
