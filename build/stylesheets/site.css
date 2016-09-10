@@ -6462,6 +6462,13 @@ h6 {
   font-size: 20px;
   font-weight: 600; }
 
+.btn-register {
+  background-color: #f18f2e;
+  color: #fff; }
+  .btn-register:hover, .btn-register:focus {
+    background-color: #ec7d10;
+    color: #fff; }
+
 .blog_date {
   background: #507822; }
 
