@@ -12,7 +12,7 @@
 <% end %>
 
   <a href="/for-more-info/">
-    <%= link_to((image_tag "header-image-news.png", :class => "img-responsive"), 'https://www.facebook.com/randolphramblerace/') %>
+    <%= link_to((image_tag "header-image-news.png", :class => "img-fluid"), 'https://www.facebook.com/randolphramblerace/') %>
   </a>
 
   <p class="lead">
@@ -21,30 +21,32 @@
   </p>
 
   <p class="lead">
-    The 2017 edition will take place on <span style="font-size: 30px; color: #993399;">Sunday, October 29</span>. You can get the latest news from our <a href="https://www.facebook.com/randolphramblerace/">Facebook page</a>.
+    The 2019 edition will take place on <span style="font-size: 30px; color: #993399;">Sunday, October 27, 2019</span>. Registration will open sometime in July! You can get the latest news from our <a href="https://www.facebook.com/randolphramblerace/">Facebook page</a>.
   </p>
 
-  <div class="mtl">
+<% if false %>
+  <div class="mt-4">
     <a href="https://www.runreg.com/randolph-ramble-trail-race" class="btn btn-register" target="_blank">
       <span>Register now!</span>
       <i class="fa fa-arrow-circle-right"></i>
     </a>
   </div>
+<% end %>
   
   <p class="lead">
     The race places an emphasis on self-sufficiency in the mountains: there are no aid stations and, due to the time of year, there is a mandatory gear list.
   </p>
 
-  <div class="row mtl ptl">
-    <article class="col-sm-6 col-md-5 mbl">
+  <div class="row mt-4 pt-4">
+    <article class="col-lg-6 mb-4">
       <div class="fb-page" data-href="https://www.facebook.com/randolphramblerace/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
         <blockquote cite="https://www.facebook.com/randolphramblerace/" class="fb-xfbml-parse-ignore">
           <a href="https://www.facebook.com/randolphramblerace/">Randolph Ramble</a>
         </blockquote>
       </div>
     </article>
-    <figure class="col-sm-6 col-md-7">
-      <%= image_tag "IMG_5052.jpg", :class => "img-responsive mbl" %>
-      <%= image_tag "IMG_5085.jpg", :class => "img-responsive" %>
+    <figure class="col-lg-6">
+      <%= image_tag "IMG_5052.jpg", :class => "img-fluid mb-4" %>
+      <%= image_tag "IMG_5085.jpg", :class => "img-fluid" %>
     </figure>
   </div>
