@@ -9,5 +9,5 @@ gem 'middleman-livereload'
 
 gem 'bootstrap-sass'
 gem 'middleman-jquery', '~> 2.1', '>= 2.1.1'
-
 gem "middleman-minify-html", "~>3.4.1"
+gem 'rack', '2.0.8'
